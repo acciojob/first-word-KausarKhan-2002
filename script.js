@@ -1,10 +1,11 @@
 function firstWord(s) {
  // write your code here
- if (str === '') return ''
+ if (s === '') return ''
 
+ let str = s.trim()
  let indexS = str.indexOf(' ')
   
- if (indexS === -1) return str
+ if (indexS === -1) return s
 
  return str.slice(0, indexS)
 }
